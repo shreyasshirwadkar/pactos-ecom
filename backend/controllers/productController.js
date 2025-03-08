@@ -56,7 +56,7 @@ exports.createProduct = async (req, res) => {
       price: parseFloat(price),
       imageUrl,
       sellerId,
-      createdAt: new Date().toISOString(),
+      createdAt: new Date(),
     });
 
     const product = {
