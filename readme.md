@@ -1,3 +1,7 @@
+## https://shreyas-ecom.netlify.app/
+
+## https://pactos-ecom.onrender.com
+
 # Marketplace Backend API
 
 This is the backend for the Marketplace application, built with Express.js and using Airtable as a database. It provides API endpoints for managing products and orders.
