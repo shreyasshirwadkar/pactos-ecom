@@ -20,7 +20,7 @@ const App: React.FC = () => {
     <Router>
       <div className="App">
         <NavBar user={user} />
-        <div className="container mt-4">
+        <div className=" mt-4">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route

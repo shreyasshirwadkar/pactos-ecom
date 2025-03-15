@@ -8,7 +8,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="w-full md:w-[25vw] p-4 ">
+    <div className="w-full md:w-[50vw] lg:w-[25vw] p-4 ">
       <div className="bg-white border border-slate-300  rounded-lg shadow-2xl h-full overflow-hidden">
         <img
           src={product.imageUrl || "https://via.placeholder.com/300"}

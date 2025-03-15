@@ -48,7 +48,7 @@ const HomePage = () => {
   }
 
   return (
-    <div className="flex flex-col items-center py-10 px-5">
+    <div className="flex flex-col items-center  py-10 px-5">
       <h1 className="text-4xl font-bold text-gray-800">Browse Products</h1>
       <div className="w-full max-w-md mt-5">
         <input
@@ -64,7 +64,7 @@ const HomePage = () => {
           No products found. Try a different search or check back later!
         </div>
       ) : (
-        <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 w-full max-w-5xl">
+        <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 w-full ">
           {filteredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
